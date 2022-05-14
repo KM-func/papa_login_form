@@ -1,0 +1,30 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    --main-color: #ff772e;
+    --sub-color-1: #ed5717;
+}
+.btn-custom{
+    background-color: var(--main-color) !important;
+}
+.btn-custom:hover{
+    background-color: var(--sub-color-1) !important;
+}
+/* .form-outline .form-control:focus~.form-notch .form-notch-leading {
+    outline: none;
+    border-top: .125rem solid var(--main-color);
+    border-bottom: .125rem solid var(--main-color) ;
+    border-left: .125rem solid var(--main-color) !important;
+}
+ .form-outline .form-control:focus~.form-notch .form-notch-middle {
+    border-bottom: .125rem solid !important;
+    border-color: var(--main-color) !important;
+    outline: none;
+}
+
+.form-outline .form-control:focus~.form-notch .form-notch-trailing {
+    border-color: currentcolor currentcolor currentcolor var(--main-color) !important;
+    border-bottom: .125rem solid var(--main-color) !important;
+    border-right: .125rem solid var(--main-color) !important;
+    border-top: .125rem solid var(--main-color) !important;
+    outline: none;
+} */
